@@ -35,3 +35,4 @@ class SourceReference(BaseModel):
 class QueryResponse(BaseModel):
     answer: str
     references: list[SourceReference]
+// update 2021-09-24 11:49:59
