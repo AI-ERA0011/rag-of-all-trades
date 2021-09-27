@@ -20,3 +20,4 @@ class DataEmbeddings(Base):
     key_text = Column(Text, sa.Computed("metadata_ ->> 'key'", persisted=True))
     checksum_text = Column(Text, sa.Computed("metadata_ ->> 'checksum'", persisted=True))
 // update 2021-09-23 12:31:13
+// update 2021-09-27 9:22:27
