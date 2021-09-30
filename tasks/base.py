@@ -306,3 +306,4 @@ class IngestionJob(ABC):
             error_msg = f"[{self.source_name}] Job failed: {e}"
             logger.exception(error_msg)
             return f"{error_msg}. Partial results: {total} ingested, {skipped} skipped"
+// update 2021-09-30 8:44:30
