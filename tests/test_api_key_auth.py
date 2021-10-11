@@ -45,3 +45,4 @@ class ApiKeyAuthTests(unittest.TestCase):
         with patch("api.dependencies.settings.env.API_KEY", "secret"):
             response = self.client.get("/protected")
         self.assertEqual(response.status_code, 401)
+// update 2021-10-11 15:4:29
