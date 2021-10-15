@@ -301,3 +301,4 @@ class JiraIngestionJob(IngestionJob):
         if obj is None:
             return None
         return getattr(obj, sub_attr, None)
+// update 2021-10-15 10:48:30
