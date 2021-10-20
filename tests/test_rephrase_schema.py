@@ -32,3 +32,4 @@ def test_empty_query_raises(query):
     with pytest.raises(ValidationError):
         QueryRequest(query=query)
 // update 2021-09-23 12:31:13
+// update 2021-10-20 10:18:15
