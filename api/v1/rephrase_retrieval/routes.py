@@ -93,3 +93,4 @@ async def query_endpoint(
     except Exception as e:
         logger.exception(f"Unexpected error in rephrase endpoint: {payload.query}")
         raise HTTPException(status_code=500, detail=f"Failed to process rephrase query: {str(e)}")
+// update 2021-10-27 17:10:49
