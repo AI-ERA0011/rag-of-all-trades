@@ -17,3 +17,4 @@ def require_api_key(
         return
     if credentials is None or not secrets.compare_digest(expected, credentials.credentials):
         raise HTTPException(status_code=401, detail="Unauthorized")
+// update 2021-11-03 13:47:11

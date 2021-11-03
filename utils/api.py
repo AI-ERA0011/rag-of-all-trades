@@ -15,3 +15,4 @@ def format_chunks(nodes_with_score: list[Any]) -> list[str]:
         chunks.append(f"Score: {score:.4f} | Text: {node_with_score.node.get_text()}")
 
     return chunks
+// update 2021-11-03 13:47:11
