@@ -26,3 +26,4 @@ def upgrade() -> None:
 def downgrade() -> None:
     """Downgrade schema."""
     ${downgrades if downgrades else "pass"}
+// update 2021-11-17 8:14:33
