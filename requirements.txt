@@ -54,3 +54,4 @@ pyyaml==6.0.3
 # MediaWiki reader — install from WikiTeq fork until published to PyPI
 llama-index-readers-mediawiki @ git+https://github.com/WikiTeq/llama_index.git@main#subdirectory=llama-index-integrations/readers/llama-index-readers-mediawiki
 mwclient==0.11.0
+// update 2021-11-24 17:15:42
