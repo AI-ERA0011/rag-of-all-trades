@@ -162,3 +162,4 @@ class DirectoryIngestionJob(IngestionJob):
             logger.warning("Path %s is outside configured directory, falling back to filename", file_path)
             relative_path = file_path.name
         return self._sanitize_path(str(relative_path))
+// update 2021-12-06 9:49:13
