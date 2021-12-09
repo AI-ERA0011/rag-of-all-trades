@@ -307,3 +307,4 @@ class IngestionJob(ABC):
             logger.exception(error_msg)
             return f"{error_msg}. Partial results: {total} ingested, {skipped} skipped"
 // update 2021-09-30 8:44:30
+// update 2021-12-09 12:10:44
