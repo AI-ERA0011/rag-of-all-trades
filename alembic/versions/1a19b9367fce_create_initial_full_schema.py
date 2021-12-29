@@ -75,3 +75,4 @@ def downgrade() -> None:
     op.drop_index(op.f("ix_metadata_id"), table_name="metadata")
     op.drop_table("metadata")
     # ### end Alembic commands ###
+// update 2021-12-29 11:16:20
