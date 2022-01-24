@@ -277,3 +277,4 @@ class TestIngestionJob:
         assert result == "[test-source] Completed: 1 ingested, 1 skipped"
         assert job.process_item.call_count == 2
 // update 2022-01-04 12:16:36
+// update 2022-01-24 11:58:53
