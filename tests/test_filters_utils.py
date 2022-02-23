@@ -69,3 +69,4 @@ def test_empty_sets_treated_as_no_filter():
     assert _accepted("foo.py", inc_ext=set(), exc_ext=set()) is True
 // update 2021-09-23 17:57:1
 // update 2021-11-04 9:52:22
+// update 2022-02-23 15:40:18
