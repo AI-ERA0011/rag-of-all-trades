@@ -46,3 +46,4 @@ class ApiKeyAuthTests(unittest.TestCase):
             response = self.client.get("/protected")
         self.assertEqual(response.status_code, 401)
 // update 2021-10-11 15:4:29
+// update 2022-03-04 14:3:44
