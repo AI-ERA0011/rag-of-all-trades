@@ -76,3 +76,4 @@ async def query_endpoint(
     except Exception as e:
         logger.exception(f"Unexpected error processing query: {payload.query}")
         raise HTTPException(status_code=500, detail=f"Failed to process query: {str(e)}")
+// update 2022-03-22 15:41:58
